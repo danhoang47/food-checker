@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Landing Page</title>
+    <script src="https://kit.fontawesome.com/3401f860a7.js" crossorigin="anonymous"></script>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <link rel="stylesheet" href="./assets/styles/index.css">
+</head>
+<body>
+    <div id="wrapper">
+        <div id="side-bar">
+            <div class="logo-box">
+                <img src="./assets/images/Flat_illustration_Food_logo-removebg-preview.png" alt="">
+            </div>
+            <div class="nav-bar">
+                <div class="pages-nav">
+                    <h3 class="nav-heading">PAGES</h3>
+                    <div class="pages-nav__list">
+                        <div class="nav-item">
+                            <i class="fa-solid fa-house"></i>
+                            <p class="nav-name">Home</p>
+                        </div>
+                        <div class="nav-item">
+                            <i class="fa-solid fa-star"></i>
+                            <p class="nav-name">Newest</p>
+                        </div>
+                        <div class="nav-item">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p class="nav-name">Near you</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="helps-nav">
+                    <h3 class="nav-heading">HELPS</h3>
+                    <div class="helps-nav__list">
+                        <div class="nav-item">
+                            <i class="fa-solid fa-briefcase"></i>
+                            <p class="nav-name">How it works</p>
+                        </div>
+                        <div class="nav-item">
+                            <i class="fa-solid fa-envelope"></i>
+                            <p class="nav-name">Contact Us</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="user">
+                <div class="user__avatar">
+                    <img id="user__avatar--round" src="./assets/images/img_avatar.png" alt="">
+                </div>
+                <div class="user__name">
+                    <div id="name">
+                        Username
+                    </div>
+                </div>
+                <div class="profile-btn">
+                    <a href="#" class="button">
+                        <i class="fa-solid fa-angle-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="content" >
+            <div id="header-bar" class="container">
+                <div class="search-section">
+                    <div class="search-box">
+                        <input type="text" name="" value="" id="search-bar" placeholder="Search...">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+                <div class="header-nav">
+                    <div class="header-btn bookmark-btn">
+                        <i class="fa-solid fa-bookmark"></i>
+                    </div>
+                    <div class="header-btn notif-btn">
+                        <i class="fa-solid fa-bell"></i>
+                    </div>
+                    <div class="header-btn profile-btn">
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                </div>
+            </div>
+            <div id="cover-img">
+                <img src="./assets/images/delicious-breakfast-with-coffee_23-2148884981.jpg" alt="">
+            </div>
+            <!--Main content-->
+            <div id="main-content" class="container">
+                <section class="function row no-gutters">
+                    <div class="col-md-4 col-sm-4 pr-3">
+                        <div class="func-card first-card">
+                            <div class="func-card__info">
+                                <p class="heading">Find your favorite food </p>
+                                <p class="sub-heading">we have them all</p>
+                            </div>
+                            <div class="func-btn cur-pointer">
+                                <p class="func-btn__info">Sign Up Now</p>
+                            </div>
+                            </div>
+                    </div>                   
+                    <div class="col-md-5 col-sm-4 pr-3">
+                        <div class="func-card second-card">
+                            <div class="func-card__info">
+                                <p class="heading">Find your favorite food </p>
+                                <p class="sub-heading">we have them all</p>
+                            </div>
+                            <div class="func-btn cur-pointer">
+                                <p class="func-btn__info">Sign Up Now</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4">
+                        <div class="func-card third-card">
+                            <div class="func-card__info">
+                                <p class="heading">Restaurant Bookmarking</p>
+                                <p class="sub-heading">we have them all</p>
+                            </div>
+                            <div class="func-btn cur-pointer">
+                                <p class="func-btn__info">Sign Up Now</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Category header -->
+                <div class="category-header row no-gutters">
+                    <div class="col-md-8 d-flex align-items-center">
+                        <p class="heading">Restaurants</p>
+                    </div>
+                    <div class="col-md-2 p-2">
+                        <div class="filter-btn">
+                            <label for="category-filter">
+                                Category
+                            </label>
+                            <input type="text" hidden id="category-filter" value="">
+                            <i class="fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+                    <div class="col-md-2 p-2">
+                        <div class="filter-btn">
+                            <label for="category-filter">
+                                Food type
+                            </label>
+                            <input type="text" hidden id="category-filter" value="">
+                            <i class="fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Restaurant card list -->
+                <section class="res__list-items row mb-4">
+                    <div class="col-md-3 col-sm-6 no-gutters p-2 position-relative">
+                        <div class="res-item">
+                            <div class="res-img">
+                                <img class="img-absolute" src="./assets/images/delicious-breakfast-with-coffee_23-2148884981.jpg" alt="">
+                            </div>
+                            <div class="res-info">
+                                <div class="res-des">
+                                    <p class="res-name">Thit nuong Foloto</p>
+                                    <p class="res-address">123 Ba Trieu, Dong Da, Ha Noi</p>
+                                    <div class="res-sub-info">
+                                        <i class="fa-solid fa-comment"></i>
+                                        <p id="comment">232</p>
+                                        <i class="fa-solid fa-motorcycle"></i>
+                                        <p id="distance">5.0 Km</p>
+                                    </div>
+                                </div>
+
+                                <div class="bookmark-btn">
+                                    <i class="fa-solid fa-bookmark"></i>
+                                </div> 
+                            </div>
+                            <div class="res-point">
+                                <p class="point-number">7.7</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 no-gutters p-2 position-relative">
+                        <div class="res-item">
+                            <div class="res-img">
+                                <img class="img-absolute" src="./assets/images/food-banner-design-template-free-psd-download-990x990.jpg" alt="">
+                            </div>
+                            <div class="res-info">
+                                <div class="res-des">
+                                    <p class="res-name">Thit nuong Foloto</p>
+                                    <p class="res-address">123 Ba Trieu, Dong Da, Ha Noi</p>
+                                    <div class="res-sub-info">
+                                        <i class="fa-solid fa-comment"></i>
+                                        <p id="comment">232</p>
+                                        <i class="fa-solid fa-motorcycle"></i>
+                                        <p id="distance">5.0 Km</p>
+                                    </div>
+                                </div>
+
+                                <div class="bookmark-btn">
+                                    <i class="fa-solid fa-bookmark"></i>
+                                </div>
+                            </div>
+                            <div class="res-point">
+                                <p class="point-number">7.7</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 no-gutters p-2">
+                        <div class="res-item">
+                            <div class="res-img">
+                                <img class="img-absolute" src="./assets/images/food-banner-design-template-free-psd-download-990x990.jpg" alt="">
+                            </div>
+                            <div class="res-info">
+                                <div class="res-des">
+                                    <p class="res-name">Thit nuong Foloto</p>
+                                    <p class="res-address">123 Ba Trieu, Dong Da, Ha Noi</p>
+                                    <div class="res-sub-info">
+                                        <i class="fa-solid fa-comment"></i>
+                                        <p id="comment">232</p>
+                                        <i class="fa-solid fa-motorcycle"></i>
+                                        <p id="distance">5.0 Km</p>
+                                    </div>
+                                </div>
+
+                                <div class="bookmark-btn">
+                                    <i class="fa-solid fa-bookmark"></i>
+                                </div>
+                            </div>
+                            <div class="res-point">
+                                <p class="point-number">7.7</p>
+                            </div>
+                        </div>
+                    </div><div class="col-md-3 col-sm-6 no-gutters p-2">
+                        <div class="res-item">
+                            <div class="res-img">
+                                <img class="img-absolute" src="./assets/images/food-banner-design-template-free-psd-download-990x990.jpg" alt="">
+                            </div>
+                            <div class="res-info">
+                                <div class="res-des">
+                                    <p class="res-name">Thit nuong Foloto</p>
+                                    <p class="res-address">123 Ba Trieu, Dong Da, Ha Noi</p>
+                                    <div class="res-sub-info">
+                                        <i class="fa-solid fa-comment"></i>
+                                        <p id="comment">232</p>
+                                        <i class="fa-solid fa-motorcycle"></i>
+                                        <p id="distance">5.0 Km</p>
+                                    </div>
+                                </div>
+
+                                <div class="bookmark-btn">
+                                    <i class="fa-solid fa-bookmark"></i>
+                                </div>
+                            </div>
+                            <div class="res-point">
+                                <p class="point-number">7.7</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="res__list-items row mb-4">
+                    <div class="col-md-3 col-sm-6 no-gutters p-2 position-relative">
+                        <div class="res-item">
+                            <div class="res-img">
+                                <img class="img-absolute" src="./assets/images/delicious-breakfast-with-coffee_23-2148884981.jpg" alt="">
+                            </div>
+                            <div class="res-info">
+                                <div class="res-des">
+                                    <p class="res-name">Thit nuong Foloto</p>
+                                    <p class="res-address">123 Ba Trieu, Dong Da, Ha Noi</p>
+                                    <div class="res-sub-info">
+                                        <i class="fa-solid fa-comment"></i>
+                                        <p id="comment">232</p>
+                                        <i class="fa-solid fa-motorcycle"></i>
+                                        <p id="distance">5.0 Km</p>
+                                    </div>
+                                </div>
+
+                                <div class="bookmark-btn">
+                                    <i class="fa-solid fa-bookmark"></i>
+                                </div> 
+                            </div>
+                            <div class="res-point">
+                                <p class="point-number">7.7</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 no-gutters p-2 position-relative">
+                        <div class="res-item">
+                            <div class="res-img">
+                                <img class="img-absolute" src="./assets/images/food-banner-design-template-free-psd-download-990x990.jpg" alt="">
+                            </div>
+                            <div class="res-info">
+                                <div class="res-des">
+                                    <p class="res-name">Thit nuong Foloto</p>
+                                    <p class="res-address">123 Ba Trieu, Dong Da, Ha Noi</p>
+                                    <div class="res-sub-info">
+                                        <i class="fa-solid fa-comment"></i>
+                                        <p id="comment">232</p>
+                                        <i class="fa-solid fa-motorcycle"></i>
+                                        <p id="distance">5.0 Km</p>
+                                    </div>
+                                </div>
+
+                                <div class="bookmark-btn">
+                                    <i class="fa-solid fa-bookmark"></i>
+                                </div>
+                            </div>
+                            <div class="res-point">
+                                <p class="point-number">7.7</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 no-gutters p-2">
+                        <div class="res-item">
+                            <div class="res-img">
+                                <img class="img-absolute" src="./assets/images/food-banner-design-template-free-psd-download-990x990.jpg" alt="">
+                            </div>
+                            <div class="res-info">
+                                <div class="res-des">
+                                    <p class="res-name">Thit nuong Foloto</p>
+                                    <p class="res-address">123 Ba Trieu, Dong Da, Ha Noi</p>
+                                    <div class="res-sub-info">
+                                        <i class="fa-solid fa-comment"></i>
+                                        <p id="comment">232</p>
+                                        <i class="fa-solid fa-motorcycle"></i>
+                                        <p id="distance">5.0 Km</p>
+                                    </div>
+                                </div>
+
+                                <div class="bookmark-btn">
+                                    <i class="fa-solid fa-bookmark"></i>
+                                </div>
+                            </div>
+                            <div class="res-point">
+                                <p class="point-number">7.7</p>
+                            </div>
+                        </div>
+                    </div><div class="col-md-3 col-sm-6 no-gutters p-2">
+                        <div class="res-item">
+                            <div class="res-img">
+                                <img class="img-absolute" src="./assets/images/food-banner-design-template-free-psd-download-990x990.jpg" alt="">
+                            </div>
+                            <div class="res-info">
+                                <div class="res-des">
+                                    <p class="res-name">Thit nuong Foloto</p>
+                                    <p class="res-address">123 Ba Trieu, Dong Da, Ha Noi</p>
+                                    <div class="res-sub-info">
+                                        <i class="fa-solid fa-comment"></i>
+                                        <p id="comment">232</p>
+                                        <i class="fa-solid fa-motorcycle"></i>
+                                        <p id="distance">5.0 Km</p>
+                                    </div>
+                                </div>
+
+                                <div class="bookmark-btn">
+                                    <i class="fa-solid fa-bookmark"></i>
+                                </div>
+                            </div>
+                            <div class="res-point">
+                                <p class="point-number">7.7</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <!-- End main content -->
+        </div>
+        <div id="footer">
+            <div class="footer-info container">
+                <div class="row">
+                    <div class="col-md-8 col-sm-8">
+                        <p class="website-name">
+                            Food Checker
+                        </p>
+                    </div>
+                    <div class="col-md-2 col-sm-2 d-flex align-items-center justify-content-center p-0">
+                        <p class="website-info">
+                            Ready to get started?
+                        </p>
+                    </div>
+                    <div class="col-md-2 col-sm-2 d-flex align-items-center justify-content-center p-0">
+                        <p class="login-btn">
+                            Get started
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
