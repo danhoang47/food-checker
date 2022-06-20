@@ -1,0 +1,146 @@
+.sec1_img {
+    width: 100%;
+    height: 100%;
+}
+
+.section1 p {
+    font-size: 150%;
+    font-weight: lighter;
+}
+
+.sec1_right {
+    padding: 0;
+    text-align: center;
+    margin: auto 0;
+}
+
+.sec1_right h1 {
+    font-size: 650%;
+    font-weight: bold;
+}
+
+.sec1_left {
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.section2_img {
+    width: 100%;
+    height: 100%;
+}
+
+.section2 {
+    text-align: center;
+    background: url(../images/Group\ 7.png) no-repeat center/cover;
+    height: 112vh;
+    width: 96.4vw;
+    margin-left: 2%;
+}
+
+.section2 span {
+    color: white;
+}
+
+.section2 h1 {
+    font-size: 650%;
+    font-weight: bold;
+    padding-top: 5%;
+}
+
+.section2 p {
+    margin-top: 3%;
+    font-size: 150%;
+    font-weight: lighter;
+}
+
+.sec3_img {
+    width: 100%;
+    height: 100%;
+}
+
+.section3 p {
+    font-size: 150%;
+    font-weight: lighter;
+}
+
+.sec3_right {
+    padding: 0;
+    text-align: center;
+    margin: auto 0;
+}
+
+.sec3_right h1 {
+    font-size: 650%;
+    font-weight: bold;
+}
+
+.sec3_left {
+    background: url(../images/sec3.png) no-repeat center/cover;
+    padding: 0;
+    height: 100vh;
+    text-align: center;
+    width: 100vw;
+}
+
+.sec3_left h1 {
+    font-size: 650%;
+    font-weight: bold;
+    color: white;
+}
+
+.sec3_right span {
+    color: #f5ca7b;
+}
+
+#content {
+    width: 98.997%;
+    background-color: var(--main-bg-color);
+}
+
+#content #header-bar {
+    margin-left: 20%;
+    z-index: 1;
+    position: fixed;
+    display: flex;
+    color: var(--light-orange);
+    align-items: center;
+    font-size: 1.6rem;
+    margin-top: 0.6em;
+    padding-bottom: 0.6em;
+}
+
+#header-bar .header-nav {
+    margin-left: auto;
+    color: black;
+}
+
+#header-bar .header-nav div {
+    border: none;
+    display: inline-block;
+    padding: 1rem 0.6rem;
+}
+
+#header-bar .header-nav i {
+    padding: 0.2em;
+}
+
+#header-bar .header-nav div:hover {
+    opacity: 0.6;
+}
+
+.logo-box {
+    overflow: hidden;
+    text-align: center;
+}
+
+.logo-box img {
+    margin-right: 90%;
+    width: 100%;
+    min-width: 7rem;
+    max-width: 6rem;
+}
+
+.container {
+    width: 100%;
+}
