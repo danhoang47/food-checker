@@ -169,16 +169,6 @@
 }
 
 
-.res__main-reviews-bound {
-    background-color: #F8F0EB;
-    display: flex;
-    flex-direction: column;
-    /* justify-content: flex-end; */
-    /* align-items: flex-end; */
-}
-
-.res__main-reviews-small,
-.res__main-reviews-mid,
 .res__main-reviews-large {
     display: flex;
     background-color: #F9F9F9;
@@ -188,48 +178,18 @@
     margin-bottom: 10px;
 }
 
-.res__main-reviews-mid {
-    padding: 0px 40px;
-}
-
-.res__main-reviews-small {
-    padding: 0 40px;
-}
-
-.res__main-reviews-mid {
-    width: 80%;
-    margin-left: auto;
-}
-
-.res__main-reviews-small {
-    width: 60%;
-    margin-left: auto;
-}
-
 .res__main-reviews-info {
     align-items: center;
     justify-content: center;
     padding: 10px 0;
 }
 
-.res__main-reviews-info-pic--small,
-.res__main-reviews-info-pic--mid,
 .res__main-reviews-info-pic {
     border-radius: 50%;
     width: 60px;
     height: 60px;
     background-color: #FFB388;
 }   
-
-.res__main-reviews-info-pic--mid {
-    width: 50px;
-    height: 50px;
-}
-
-.res__main-reviews-info-pic--small {
-    width: 40px;
-    height: 40px;
-}
 
 .res__main-reviews-info-name {
     text-align: center;
@@ -251,53 +211,27 @@
 .res__main-reviews-rating-text {
     background-color: #FED7C1;
     width: 100%;
-    min-height: 30px;
-    height: auto;
+    min-height: 60px;
     border-radius: 16px;
-    color: #333;
-    padding: 6px;
 }
 
 .res__main-reviews-rating-list_btn {
     display: flex;
 }
 
-.res__main-reviews-rating-item_btn--mid,
-.res__main-reviews-rating-item_btn--small,
 .res__main-reviews-rating-item_btn {
     background-color: #D9D9D9;
-    border-radius: 8px;
-}
-
-.res__main-reviews-rating-item_btn {
     width: 46px;
     height: 18px;
     margin: 10px 5px;
+    border-radius: 8px;
     padding-top: 5px;
 }
 
-.res__main-reviews-rating-item_btn--mid {
-    width: 46px;
-    height: 12px;
-    margin: 6px 3px;
-    padding-top: 5px;
-}
-
-.res__main-reviews-rating-item_btn--small {
-    width: 46px;
-    height: 12px;
-    margin: 6px 3px;
-    padding-top: 5px;
-}
-
-.res__main-reviews-rating-item_btn--mid:first-child,
-.res__main-reviews-rating-item_btn--small:first-child,
 .res__main-reviews-rating-item_btn:first-child {
     margin-left: 0;
 }
 
-.res__main-reviews-rating-item_btn--mid:last-child,
-.res__main-reviews-rating-item_btn--small:last-child,
 .res__main-reviews-rating-item_btn:last-child {
     margin-left: auto;
 }
