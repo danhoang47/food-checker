@@ -1,0 +1,138 @@
+.ad__main {
+    margin-top: 60px;
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ad__total-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ad__total-item {
+    padding: 20px 30px;
+    width: 270px;
+    height: auto;
+    border-radius: 18px;
+    background-color: gray;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.ad__total-item--view {
+    background-color: #FCA13F;
+}
+
+.ad__total-item--user {
+    background-color: #FF7C33;
+}
+
+.ad__total-item--review {
+    background-color: #FFBF9B;
+}
+
+.ad__total-icon {
+    margin: 5px 10px;
+    padding: 2px 0;
+}
+
+.ad__total-icon i {
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.ad__total-title {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 3px 0;
+}
+
+.ad__total-value {
+    color: #ffffff;
+    font-size: 24px;
+    padding: 2px 0 0 0;
+}
+
+.add__pending {
+    margin: 50px 0;
+}
+
+.add__pending-heading {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 3px 0 10px 0;
+}
+
+.add__pending-item {
+    background-color: #fff;
+    display: flex;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.add__pending-item--image {
+    width: 100%;
+    padding: 8px;
+    border-radius: 10px;
+    flex: .1;
+}
+
+.add__pending-item--image img {
+    border-radius: 10px;
+    width: 120px;
+}
+
+.add__pending-item--infor {
+    flex: 1;
+    padding: 14px;
+}
+
+.add__pending-item--name {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.add__pending-item--list_btn {
+    display: flex;
+    margin-top: 40px;
+}
+
+.add__pending-item--item_btn {
+    padding : 2px 10px;
+    min-width: 60px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    margin: 0 8px;
+    align-items: center;
+    line-height: 18px;
+}
+
+.add__pending-item--item_btn i {
+    font-size: 18px;
+}
+
+.add__pending-item--item_btn--yes {
+    margin: 0 8px 0 0;
+    border: 1px solid #24D440;
+    color: #24D440;
+}
+
+
+.add__pending-item--item_btn--no {
+    margin: 0 5px 0 0;
+    border: 1px solid #F01A1A;
+    color: #F01A1A;
+}
+
+.add__pending-item--item_btn--preview {
+    margin-left: auto;
+    margin-right: 10px;
+    font-size: 12px;
+    width: 100px;
+    background-color: #FCA13F;
+    color: #fff;
+}
+
