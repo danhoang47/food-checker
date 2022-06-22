@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-size: 0.8rem;
 }
@@ -15,7 +21,6 @@ body {
 .sec1_right {
     padding: 0;
     text-align: center;
-    margin: auto 0;
 }
 
 .sec1_right h1 {
@@ -131,4 +136,12 @@ body {
 
 #sign-up-row {
     margin-top: 5%;
+}
+
+input[type="submit"] {
+    font-size: 1.1rem;
+}
+
+#sign-up {
+    margin-top: 100px;
 }
