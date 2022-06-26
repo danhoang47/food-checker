@@ -5,17 +5,55 @@ const menuForm = document.getElementById("menu-form");
 const basicInfo = document.getElementById("basic-info");
 const imageInput = document.querySelectorAll(".image-input");
 const addFoodBtn = document.getElementById("add-btn");
-
+const backgroundInput = document.getElementById("background-image");
+const bgImagePreview = document.getElementById("bg-preview");
+const iconClass2 = document.querySelector(".bg-input .fa-plus");
+const removeBgBtn = document.getElementById("remove-bg-btn");
+let submitStatus = false;
 let currentPage = 0;
 let counter = 1;
 
-registerForm.onsubmit = (e) => {
+removeBgBtn.onclick = (e) => {
     e.preventDefault();
+    e.stopPropagation();
+    backgroundInput.value = null;
+    bgImagePreview.classList.add("d-none");
+    iconClass2.classList.remove("d-none");
+    removeBgBtn.classList.toggle("d-none");
+}
+
+const previewBgChange = (e) => {
+    bgImagePreview.classList.remove("d-none");
+    bgImagePreview.src = URL.createObjectURL(e.target.files[0]);
+    iconClass2.classList.add("d-none");
+    removeBgBtn.classList.remove("d-none");
+
+    bgImagePreview.onload = () => {
+        URL.revokeObjectURL(imgPreviewBox.src);
+    }
+}
+
+backgroundInput.onchange = previewBgChange;
+
+registerForm.onsubmit = (e) => {
+    if (!submitStatus)
+        e.preventDefault();
 }
 
 nextBtn.onclick = backBtn.onclick = (e) => {
     basicInfo.classList.toggle('d-none');
     menuForm.classList.toggle('d-none');
+    if (e.target.value === 'Next') 
+        e.target.value = 'Submit';
+
+    else if (e.target.value === 'Submit') 
+        submitStatus = true;
+
+    else if (e.target.value === 'Back') {
+        submitStatus = false;
+        const nextSibling = e.target.parentElement.nextElementSibling;
+        nextSibling.firstElementChild.value = "Next"
+    }
 }
 
 function getPreviewImage(e) {

@@ -61,7 +61,7 @@
                       >
                         <h2 class="text_login">Restaurant Register</h2>
 
-                        <div id="basic-info" class="d-none">
+                        <div id="basic-info" class="">
                             <div class="form-group ">
                                 <label for="username" class="">Restaurant's Name*</label><br />
                                 <input
@@ -73,18 +73,30 @@
                               </div>
                               <label for="res-type" class="">Restaurant Type*</label><br />
                               <select id="res-type" class="form-select form-select-full mb-3" aria-label="Default select example">
-                                  <option value="1">One</option>
-                                  <option value="2">Two</option>
-                                  <option value="3">Three</option>
+                                  <option value="1">Nhà Hàng</option>
+                                  <option value="2">Ăn vặt/Vỉa hè</option>
+                                  <option value="3">Quán ăn</option>
+                                  <option value="4">Tiệm bánh</option>
                               </select>
       
                               <label for="food-type" class="">Food Type*</label><br />
                               <select id="food-type" class="form-select form-select-full mb-3" aria-label="Default select example">
-                                  <option value="1">One</option>
-                                  <option value="2">Two</option>
-                                  <option value="3">Three</option>
+                                  <option value="1">Món Miền Trung</option>
+                                  <option value="2">Món Miền Nam</option>
+                                  <option value="3">Món Miền Bắc</option>
+                                  <option value="4">Món Món Âu</option>
                               </select>
-      
+                              
+                              <div class="form-group">
+                                <label for="apartment-number" class="">Apartment Number*</label><br />
+                                <input
+                                  type="text"
+                                  name="appartment-number"
+                                  id="appartment-number"
+                                  class="form-control"
+                                />
+                              </div>
+
                               <div class="row">
                                 <div class="col-md-4 mb-4">
                                   <div class="form-outline">
@@ -123,9 +135,19 @@
                                   </div>
                                 </div>
                               </div>
+                              <div class="form-group" id="bg-form-group">
+                                <label>Background Image</label>
+                                <label for="background-image" class="bg-input">
+                                  <img src="" alt="" id="bg-preview" class="d-none">
+                                  <i class="fa-solid fa-plus"></i>
+                                  <i class="fa-solid fa-xmark d-none" id="remove-bg-btn"></i>
+                                </label>                 
+                                <input type="file" name="bg-image" id="background-image" hidden>
+                              </div>
                         </div>
+                        
                         <!-- Menu Form -->
-                        <div id="menu-form" class="">
+                        <div id="menu-form" class="d-none">
                             <h5 for="">Menu</h5>
                             
                             <div class="form-group">

@@ -69,6 +69,14 @@
     font-size: 14px;
     min-width: 100px;
     text-align: center;
+    border: 1px solid #FD9459;
+    cursor: pointer;
+}
+
+.res__main-btn > *:hover {
+    background-color: #fff;
+    border: 1px solid #FD9459;
+    color: #FD9459;
 }
 
 .res__main-albums {
@@ -128,6 +136,10 @@
 
 .res__main-menu {
     padding: 10px 0;
+}
+
+.res__main-reviews {
+    margin-bottom: 15rem;
 }
 
 .res__main-reviews-heading,
