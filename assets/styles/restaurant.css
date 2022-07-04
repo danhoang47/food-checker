@@ -889,3 +889,11 @@ input.res__main-intro--about-time-to-edit {
     display: inline-block;
     margin-bottom: 1rem;
 }
+
+.res__main-intro--about-food_type,
+.res__main-intro--about-res_type{
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-block;
+}
+
