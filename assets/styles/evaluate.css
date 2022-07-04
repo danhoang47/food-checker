@@ -1,0 +1,193 @@
+.food {
+    width: 23vw;
+    height: 7vh;
+    background: url(../images/i1.png) no-repeat center/cover;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    margin-left: 2%;
+    font-size: 150%;
+}
+
+.col-md-3 {
+    margin-top: 0.5%;
+    margin-left: 3%;
+}
+
+.col-md-4 {
+    margin-left: 9%;
+}
+
+.row {
+    margin-top: 5%;
+}
+
+.service {
+    width: 23vw;
+    height: 7vh;
+    background: url(../images/i4.png) no-repeat center/cover;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    margin-left: 2%;
+    font-size: 150%;
+}
+
+.value {
+    width: 23vw;
+    height: 7vh;
+    background: url(../images/i3.png) no-repeat center/cover;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    margin-left: 2%;
+    font-size: 150%;
+}
+
+.atmosphere {
+    width: 23vw;
+    height: 7vh;
+    background: url(../images/i2.png) no-repeat center/cover;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    margin-left: 2%;
+    font-size: 150%;
+}
+
+.modal-body {
+    background-color: white;
+}
+
+h1 {
+    font-size: 350%;
+    font-weight: bold;
+    margin-top: 2%;
+    margin-left: 40%;
+    margin-bottom: 2%;
+    color: #F2840E;
+}
+
+.pofmodal {
+    font-size: 120%;
+    font-style: italic;
+    margin-left: 17%;
+    color: #828282;
+}
+
+h4 {
+    margin-top: 3%;
+    font-weight: bold;
+    font-size: 130%;
+}
+
+select {
+    font-size: 150%;
+    font-family: cursive, sans-serif;
+    outline: 0;
+    background: white;
+    color: black;
+    border: 1px solid orange;
+    padding: 10%;
+    border-radius: 9px;
+}
+
+.modal-content {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    ;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btnsubmit {
+    background-color: #F2840E;
+    color: white;
+    font-weight: bold;
+}
+
+.col-md-1 {
+    margin-left: 2%;
+}
+
+.like {
+    margin-left: 7%;
+    border: none;
+    width: 5vw;
+    height: 11vh;
+    background: url(../images/like.png) no-repeat center/cover;
+}
+
+.dislike {
+    border: none;
+    width: 5vw;
+    height: 10vh;
+    background: url(../images/dislike.png) no-repeat center/cover;
+}
+
+.thinking {
+    border: none;
+    width: 5vw;
+    height: 10.5vh;
+    background: url(../images/thinking.png) no-repeat center/cover;
+}
+
+#radios label {
+    cursor: pointer;
+    position: relative;
+}
+
+#radios label+label {}
+
+input[type="radio"] {
+    opacity: 0;
+    /* hidden but still tabable */
+    position: absolute;
+}
+
+input[type="radio"]+span {
+    font-family: 'Material Icons';
+    color: transparent;
+    border-radius: 50%;
+    padding: 12px;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+}
+
+input[type="radio"]:checked+span {
+    color: #000000;
+    background-color: #357d64;
+    opacity: 80%;
+}
+
+input[type="radio"]:focus+span {
+    color: #000000;
+}
+
+
+/* ================ TOOLTIPS ================= */
+
+
+/* =============================================
+  * CENTERING, CONTAINER STYLING ETC || IGNORE
+  =============================================== */
+
+#radios {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.btn {
+    font-size: 120%;
+    padding: 2.5% 4% 2.5% 4%;
+}
+
+.btn-secondary {
+    font-weight: bold;
+    margin-right: 31%;
+    background-color: b7b7b7;
+}
+
+.container {
+    margin: 0 auto;
+}

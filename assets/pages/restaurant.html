@@ -1,579 +1,674 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
     <title>Landing Page</title>
-    <script
-      src="https://kit.fontawesome.com/3401f860a7.js"
-      crossorigin="anonymous"
-    ></script>
-    <link
-      href="https://fonts.googleapis.com/css?family=Poppins"
-      rel="stylesheet"
-    />
+    <script src="https://kit.fontawesome.com/3401f860a7.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
     <link rel="stylesheet" href="../styles/index.css" />
     <link rel="stylesheet" href="../styles/style.css" />
     <link rel="stylesheet" href="../styles/restaurant.css" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="../styles/evaluate.css">
+    <link rel="stylesheet" href="../styles/noti.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin="anonymous "></script>
+
     <script src="../scripts/index.js" defer></script>
     <script src="../scripts/restaurant.js" defer></script>
-  </head>
-  <body>
+</head>
+
+<body>
     <div id="wrapper">
-      <div id="side-bar">
-        <div class="logo-box">
-          <img
-            src="../images/Flat_illustration_Food_logo-removebg-preview.png"
-            alt=""
-          />
-        </div>
-        <div class="nav-bar">
-          <div class="pages-nav">
-            <h3 class="nav-heading">PAGES</h3>
-            <div class="pages-nav__list">
-              <div class="nav-item">
-                <i class="fa-solid fa-house"></i>
-                <p class="nav-name">Home</p>
-              </div>
-              <div class="nav-item">
-                <i class="fa-solid fa-star"></i>
-                <p class="nav-name">Newest</p>
-              </div>
-              <div class="nav-item">
-                <i class="fa-solid fa-location-dot"></i>
-                <p class="nav-name">Near you</p>
-              </div>
+        <div id="side-bar">
+            <div class="logo-box">
+                <img src="../images/Flat_illustration_Food_logo-removebg-preview.png" alt="" />
             </div>
-          </div>
-          <div class="helps-nav">
-            <h3 class="nav-heading">HELPS</h3>
-            <div class="helps-nav__list">
-              <div class="nav-item">
-                <i class="fa-solid fa-briefcase"></i>
-                <p class="nav-name">How it works</p>
-              </div>
-              <div class="nav-item">
-                <i class="fa-solid fa-envelope"></i>
-                <p class="nav-name">Contact Us</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="user">
-          <div class="user__avatar">
-            <img
-              id="user__avatar--round"
-              src="../images/img_avatar.png"
-              alt=""
-            />
-          </div>
-          <div class="user__name">
-            <div id="name">Username</div>
-          </div>
-          <div class="profile-btn">
-            <a href="#" class="button">
-              <i class="fa-solid fa-angle-right"></i>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div id="content">
-        <div id="header-bar" class="container">
-          <div class="search-section">
-            <div class="search-box">
-              <input
-                type="text"
-                name=""
-                value=""
-                id="search-bar"
-                placeholder="Search..."
-              />
-              <i class="fa-solid fa-magnifying-glass"></i>
-            </div>
-          </div>
-          <div class="header-nav">
-            <div class="header-btn bookmark-btn">
-              <i class="fa-solid fa-bookmark"></i>
-            </div>
-            <div class="header-btn notif-btn">
-              <i class="fa-solid fa-bell"></i>
-            </div>
-            <div class="header-btn profile-btn">
-              <i class="fa-solid fa-user"></i>
-              <div class="profile-list d-none">
-                <div class="user-profile-btn">
-                  <a href="#">Your Profile</a>
+            <div class="nav-bar">
+                <div class="pages-nav">
+                    <h3 class="nav-heading">PAGES</h3>
+                    <div class="pages-nav__list">
+                        <div class="nav-item">
+                            <i class="fa-solid fa-house"></i>
+                            <p class="nav-name">Home</p>
+                        </div>
+                        <div class="nav-item">
+                            <i class="fa-solid fa-star"></i>
+                            <p class="nav-name">Newest</p>
+                        </div>
+                        <div class="nav-item">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p class="nav-name">Near you</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="log-out-btn">
-                  <a href="#">Log out</a>
+                <div class="helps-nav">
+                    <h3 class="nav-heading">HELPS</h3>
+                    <div class="helps-nav__list">
+                        <div class="nav-item">
+                            <i class="fa-solid fa-briefcase"></i>
+                            <p class="nav-name">How it works</p>
+                        </div>
+                        <div class="nav-item">
+                            <i class="fa-solid fa-envelope"></i>
+                            <p class="nav-name">Contact Us</p>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
+            <div class="user">
+                <div class="user__avatar">
+                    <img id="user__avatar--round" src="../images/img_avatar.png" alt="" />
+                </div>
+                <div class="user__name">
+                    <div id="name">Username</div>
+                </div>
+                <div class="profile-btn">
+                    <a href="#" class="button">
+                        <i class="fa-solid fa-angle-right"></i>
+                    </a>
+                </div>
+            </div>
         </div>
-        <div id="cover-img">
-          <img
-            src="../images/delicious-breakfast-with-coffee_23-2148884981.jpg"
-            alt=""
-          />
-        </div>
-        <!--Main content-->
-        <div class="res__main-container">
-          <form id="wrapper" method="POST" action="FrontController" enctype="multipart/form-data">
-            <div class="res__main-intro">
-              <div class="res__main-intro--about">
-                <div class="res__main-intro--about-name">Restaurant's name</div>
-                <div class="res__main-intro-container">
-                  <div class="intro-left">
-                    <div class="res__main-intro--about-price">
-                      Price range:
-                      <p
-                        class="res__main-intro--about-price res__main-intro--about-price-from-edit"
-                      >
-                        30$
-                      </p>
-                      <span>-</span>
-                      <p
-                        class="res__main-intro--about-price res__main-intro--about-price-to-edit"
-                      >
-                        100$
-                      </p>
+        <div id="content">
+            <div id="header-bar" class="container">
+                <div class="search-section">
+                    <div class="search-box">
+                        <input type="text" name="" value="" id="search-bar" placeholder="Search..." />
+                        <i class="fa-solid fa-magnifying-glass"></i>
                     </div>
-                    <div class="res__main-intro--about-time">
-                      Opening time:
-                      <p
-                        id="opening-time"
-                        class="res__main-intro--about-time res__main-intro--about-time-from-edit"
-                      >
-                        7 AM
-                      </p>
-                      <span>-</span>
-                      <p
-                        id="closing-time"
-                        class="res__main-intro--about-time res__main-intro--about-time-to-edit"
-                      >
-                        10 PM
-                      </p>
+                </div>
+                <div class="header-nav">
+                    <div class="header-btn bookmark-btn">
+                        <i class="fa-solid fa-bookmark"></i>
                     </div>
-                    <div class="res__main-intro--about-owner">
-                      <div class="res__main-intro--about-owner-avatar">
-                        <img src="../images/img_avatar.png" alt="" />
-                      </div>
+                    <div class="header-btn notif-btn">
+
+                        <button class="btn" data-toggle="modal" data-target="#notification"> <i class="fa-solid fa-bell"></i></button>
                     </div>
-                  </div>
-                  <div class="intro-right">
-                     <div>
-                        <p class="res__main-intro--about-food_type res__main-intro--about-food_type--end">Food type : </p> 
-                        <p class="res__main-intro--about-food_type res__main-intro--about-food_type-edit">Seafood</p>
-                        <select class="select_food_type" name="" id="" style="display: none;border: 1px solid #FD9459; border-radius: 10px; background-color: transparent; padding: 5px;  width: 32%">
+                    <div class="header-btn profile-btn">
+                        <i class="fa-solid fa-user"></i>
+                        <div class="profile-list d-none">
+                            <div class="user-profile-btn">
+                                <a href="#">Your Profile</a>
+                            </div>
+                            <div class="log-out-btn">
+                                <a href="#">Log out</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="cover-img">
+                <img src="../images/delicious-breakfast-with-coffee_23-2148884981.jpg" alt="" />
+            </div>
+            <!--Main content-->
+            <div class="res__main-container">
+                <form id="wrapper" method="POST" action="FrontController" enctype="multipart/form-data">
+                    <div class="res__main-intro">
+                        <div class="res__main-intro--about">
+                            <div class="res__main-intro--about-name">Restaurant's name</div>
+                            <div class="res__main-intro-container">
+                                <div class="intro-left">
+                                    <div class="res__main-intro--about-price">
+                                        Price range:
+                                        <p class="res__main-intro--about-price res__main-intro--about-price-from-edit">
+                                            30$
+                                        </p>
+                                        <span>-</span>
+                                        <p class="res__main-intro--about-price res__main-intro--about-price-to-edit">
+                                            100$
+                                        </p>
+                                    </div>
+                                    <div class="res__main-intro--about-time">
+                                        Opening time:
+                                        <p id="opening-time" class="res__main-intro--about-time res__main-intro--about-time-from-edit">
+                                            7 AM
+                                        </p>
+                                        <span>-</span>
+                                        <p id="closing-time" class="res__main-intro--about-time res__main-intro--about-time-to-edit">
+                                            10 PM
+                                        </p>
+                                    </div>
+                                    <div class="res__main-intro--about-owner">
+                                        <div class="res__main-intro--about-owner-avatar">
+                                            <img src="../images/img_avatar.png" alt="" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="intro-right">
+                                    <div>
+                                        <p class="res__main-intro--about-food_type res__main-intro--about-food_type--end">Food type : </p>
+                                        <p class="res__main-intro--about-food_type res__main-intro--about-food_type-edit">Seafood</p>
+                                        <select class="select_food_type" name="" id="" style="display: none;border: 1px solid #FD9459; border-radius: 10px; background-color: transparent; padding: 5px;  width: 32%">
                             <option value="select_1">select_1</option>
                             <option value="select_2">select_2</option>
                             <option value="select_3">select_3</option>
                         </select>
-                    </div>
-                    <div>
-                        <p class="res__main-intro--about-res_type res__main-intro--about-res_type--end">Restaurant type : </p> 
-                        <p class="res__main-intro--about-res_type res__main-intro--about-res_type-edit">Restaurant</p>
-                        <select class="select_res_type" name="" id="" style="display: none;border: 1px solid #FD9459; border-radius: 10px; background-color: transparent; padding: 5px;  width: 32%">
+                                    </div>
+                                    <div>
+                                        <p class="res__main-intro--about-res_type res__main-intro--about-res_type--end">Restaurant type : </p>
+                                        <p class="res__main-intro--about-res_type res__main-intro--about-res_type-edit">Restaurant</p>
+                                        <select class="select_res_type" name="" id="" style="display: none;border: 1px solid #FD9459; border-radius: 10px; background-color: transparent; padding: 5px;  width: 32%">
                             <option value="select_1">select_1</option>
                             <option value="select_2">select_2</option>
                             <option value="select_3">select_3</option>
                         </select>
 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="res__main-intro-review">
+                            <h3 class="heading">Customer Reviews</h3>
+                            <div class="review-total">
+                                <div class="review-stars">
+                                    <div class="stars-box">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <p class="total-points">4.7 out of 5</p>
+                                </div>
+                                <p class="total-reviews">120 rating</p>
+                                <div class="reviews-percent">
+                                    <div class="reviews-food-stars" style="--data-point: 7.8">
+                                        <p class="title">Foods</p>
+                                        <div class="percent"></div>
+                                        <div class="total">7.8</div>
+                                    </div>
+                                    <div class="reviews-service-stars" style="--data-point: 6.2">
+                                        <p class="title">Service</p>
+                                        <div class="percent"></div>
+                                        <div class="total">6.2</div>
+                                    </div>
+                                    <div class="reviews-value-stars" style="--data-point: 9.1">
+                                        <p class="title">Value</p>
+                                        <div class="percent"></div>
+                                        <div class="total">9.1</div>
+                                    </div>
+                                    <div class="reviews-atmosphere-stars" style="--data-point: 3.4">
+                                        <p class="title">Atmosphere</p>
+                                        <div class="percent"></div>
+                                        <div class="total">3.4</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                  </div>
-                </div>
-              </div>
-              <div class="res__main-intro-review">
-                <h3 class="heading">Customer Reviews</h3>
-                <div class="review-total">
-                  <div class="review-stars">
-                    <div class="stars-box">
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                    </div>
-                    <p class="total-points">4.7 out of 5</p>
-                  </div>
-                  <p class="total-reviews">120 rating</p>
-                  <div class="reviews-percent">
-                    <div class="reviews-food-stars" style="--data-point: 7.8">
-                      <p class="title">Foods</p>
-                      <div class="percent"></div>
-                      <div class="total">7.8</div>
-                    </div>
-                    <div
-                      class="reviews-service-stars"
-                      style="--data-point: 6.2"
-                    >
-                      <p class="title">Service</p>
-                      <div class="percent"></div>
-                      <div class="total">6.2</div>
-                    </div>
-                    <div class="reviews-value-stars" style="--data-point: 9.1">
-                      <p class="title">Value</p>
-                      <div class="percent"></div>
-                      <div class="total">9.1</div>
-                    </div>
-                    <div
-                      class="reviews-atmosphere-stars"
-                      style="--data-point: 3.4"
-                    >
-                      <p class="title">Atmosphere</p>
-                      <div class="percent"></div>
-                      <div class="total">3.4</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
 
-            <div class="res__main-btn">
-              <div class="res__main-btn__comments">Comments</div>
-              <div class="res__main-btn__albums">Albums</div>
-              <div class="res__main-btn__cancel">
-                <div id="cancel-btn" class="d-none">Cancel</div>
-              </div>
-              <div class="res__main-btn__edit">Edit</div>
-            </div>
+                    <div class="res__main-btn">
+                        <div class="res__main-btn__comments" data-toggle="modal" data-target="#exampleModal">Comments</div>
+                        <div class="res__main-btn__albums">Albums</div>
+                        <div class="res__main-btn__cancel">
+                            <div id="cancel-btn" class="d-none">Cancel</div>
+                        </div>
+                        <div class="res__main-btn__edit">Edit</div>
+                    </div>
 
-            <div id="main-menu" class="res__main-menu">
-              <div class="res__main-menu-heading">Menu</div>
-              <div class="res__main-menu-range">
-                From 13000 vnd to 100000 vnd
-              </div>
-              <div class="res__main-menu-list" id="main-menu-list">
-                <div class="res__main-menu-item">
-                  <div class="res__main-menu-item-img">
-                    <label for="menu-image-3">
+                    <div id="main-menu" class="res__main-menu">
+                        <div class="res__main-menu-heading">Menu</div>
+                        <div class="res__main-menu-range">
+                            From 13000 vnd to 100000 vnd
+                        </div>
+                        <div class="res__main-menu-list" id="main-menu-list">
+                            <div class="res__main-menu-item">
+                                <div class="res__main-menu-item-img">
+                                    <label for="menu-image-3">
                       <img
                         src="../images/delicious-breakfast-with-coffee_23-2148884981.jpg"
                         alt=""
                       />
                     </label>
-                  </div>
-                  <div class="res__main-menu-item-content">
-                    <div class="res__main-menu-item--name">Food Dream</div>
-                    <div class="res__main-menu-item--price">10000</div>
-                    <span>vnd</span>
-                  </div>
-                </div>
-                <div class="res__main-menu-item">
-                  <div class="res__main-menu-item-img">
-                    <label for="menu-image-4">
+                                </div>
+                                <div class="res__main-menu-item-content">
+                                    <div class="res__main-menu-item--name">Food Dream</div>
+                                    <div class="res__main-menu-item--price">10000</div>
+                                    <span>vnd</span>
+                                </div>
+                            </div>
+                            <div class="res__main-menu-item">
+                                <div class="res__main-menu-item-img">
+                                    <label for="menu-image-4">
                       <img
                         src="../images/delicious-breakfast-with-coffee_23-2148884981.jpg"
                         alt=""
                       />
                     </label>
-                  </div>
-                  <div class="res__main-menu-item-content">
-                    <div class="res__main-menu-item--name">Food Dream</div>
-                    <div class="res__main-menu-item--price">10000</div>
-                    <span>vnd</span>
-                  </div>
-                </div>
-                <div class="res__main-menu-item">
-                  <div class="res__main-menu-item-img">
-                    <label for="menu-image-5">
+                                </div>
+                                <div class="res__main-menu-item-content">
+                                    <div class="res__main-menu-item--name">Food Dream</div>
+                                    <div class="res__main-menu-item--price">10000</div>
+                                    <span>vnd</span>
+                                </div>
+                            </div>
+                            <div class="res__main-menu-item">
+                                <div class="res__main-menu-item-img">
+                                    <label for="menu-image-5">
                       <img
                         src="../images/delicious-breakfast-with-coffee_23-2148884981.jpg"
                         alt=""
                       />
                     </label>
-                  </div>
-                  <div class="res__main-menu-item-content">
-                    <div class="res__main-menu-item--name">Food Dream</div>
-                    <div class="res__main-menu-item--price">10000</div>
-                    <span>vnd</span>
-                  </div>
-                </div>
-                <div class="res__main-menu-item">
-                  <div class="res__main-menu-item-img">
-                    <label for="menu-image-6">
+                                </div>
+                                <div class="res__main-menu-item-content">
+                                    <div class="res__main-menu-item--name">Food Dream</div>
+                                    <div class="res__main-menu-item--price">10000</div>
+                                    <span>vnd</span>
+                                </div>
+                            </div>
+                            <div class="res__main-menu-item">
+                                <div class="res__main-menu-item-img">
+                                    <label for="menu-image-6">
                       <img
                         src="../images/delicious-breakfast-with-coffee_23-2148884981.jpg"
                         alt=""
                       />
                     </label>
-                  </div>
-                  <div class="res__main-menu-item-content">
-                    <div class="res__main-menu-item--name">Food Dream</div>
-                    <div class="res__main-menu-item--price">10000</div>
-                    <span>vnd</span>
-                  </div>
-                </div>
-                <div class="res__main-menu-item">
-                  <div class="res__main-menu-item-img">
-                    <label for="menu-image-7">
+                                </div>
+                                <div class="res__main-menu-item-content">
+                                    <div class="res__main-menu-item--name">Food Dream</div>
+                                    <div class="res__main-menu-item--price">10000</div>
+                                    <span>vnd</span>
+                                </div>
+                            </div>
+                            <div class="res__main-menu-item">
+                                <div class="res__main-menu-item-img">
+                                    <label for="menu-image-7">
                       <img
                         src="../images/delicious-breakfast-with-coffee_23-2148884981.jpg"
                         alt=""
                       />
                     </label>
-                  </div>
-                  <div class="res__main-menu-item-content">
-                    <div class="res__main-menu-item--name">Food Dream</div>
-                    <div class="res__main-menu-item--price">10000</div>
-                    <span>vnd</span>
-                  </div>
-                </div>
-              </div>
-              <button id="add-menu-btn" class="res__main-menu-add-menu d-none">
+                                </div>
+                                <div class="res__main-menu-item-content">
+                                    <div class="res__main-menu-item--name">Food Dream</div>
+                                    <div class="res__main-menu-item--price">10000</div>
+                                    <span>vnd</span>
+                                </div>
+                            </div>
+                        </div>
+                        <button id="add-menu-btn" class="res__main-menu-add-menu d-none">
                 <p class="title">Add Menu</p>
               </button>
-            </div>
+                    </div>
 
-            <div class="res__main-albums">
-              <div class="res__main-albums__heading">Albums</div>
-              <div class="res__main-albums__product">
-                <div class="res__main-albums__product-list">
-                  <div class="res__main-albums__product-picture">
-                    <img
-                      src="../images/food-banner-design-template-free-psd-download-990x990.jpg"
-                      alt=""
-                    />
-                  </div>
-                  <div class="res__main-albums__product-picture">
-                    <img
-                      src="../images/food-banner-design-template-free-psd-download-990x990.jpg"
-                      alt=""
-                    />
-                  </div>
-                  <div class="res__main-albums__product-picture">
-                    <img
-                      src="../images/food-banner-design-template-free-psd-download-990x990.jpg"
-                      alt=""
-                    />
-                  </div>
-                  <div class="res__main-albums__product-picture">
-                    <img
-                      src="../images/food-banner-design-template-free-psd-download-990x990.jpg"
-                      alt=""
-                    />
-                  </div>
-                </div>
-                <div class="res__main-albums__total">10 images</div>
-              </div>
-            </div>
+                    <div class="res__main-albums">
+                        <div class="res__main-albums__heading">Albums</div>
+                        <div class="res__main-albums__product">
+                            <div class="res__main-albums__product-list">
+                                <div class="res__main-albums__product-picture">
+                                    <img src="../images/food-banner-design-template-free-psd-download-990x990.jpg" alt="" />
+                                </div>
+                                <div class="res__main-albums__product-picture">
+                                    <img src="../images/food-banner-design-template-free-psd-download-990x990.jpg" alt="" />
+                                </div>
+                                <div class="res__main-albums__product-picture">
+                                    <img src="../images/food-banner-design-template-free-psd-download-990x990.jpg" alt="" />
+                                </div>
+                                <div class="res__main-albums__product-picture">
+                                    <img src="../images/food-banner-design-template-free-psd-download-990x990.jpg" alt="" />
+                                </div>
+                            </div>
+                            <div class="res__main-albums__total">10 images</div>
+                        </div>
+                    </div>
 
-            <div class="res__main-reviews">
-              <div class="res__main-reviews-heading">Reviews</div>
-              <div class="res__main-reviews-amount">29 reviews from people</div>
-              <form class="res__main-comment-box">
-                <div class="res__main-user">
-                  <div class="res__main-avatar">
-                    <img src="../images/img_avatar.png" alt="" />
-                  </div>
-                  <p class="res__main-username">Name</p>
-                </div>
-                <div class="res__main-comment-section">
-                  <div class="res__main-comment">
-                    <textarea
-                      name=""
-                      id="comment-text-box"
-                      placeholder="Comment..."
-                    ></textarea>
-                    <label for="image-input-1" id="add-image-btn">
+                    <div class="res__main-reviews">
+                        <div class="res__main-reviews-heading">Reviews</div>
+                        <div class="res__main-reviews-amount">29 reviews from people</div>
+                        <form class="res__main-comment-box">
+                            <div class="res__main-user">
+                                <div class="res__main-avatar">
+                                    <img src="../images/img_avatar.png" alt="" />
+                                </div>
+                                <p class="res__main-username">Name</p>
+                            </div>
+                            <div class="res__main-comment-section">
+                                <div class="res__main-comment">
+                                    <textarea name="" id="comment-text-box" placeholder="Comment..."></textarea>
+                                    <label for="image-input-1" id="add-image-btn">
                       <i class="fa-solid fa-image"></i>
                     </label>
-                    <div class="res__main-comment-image">
-                      <div class="res__main-image">
-                        <input
-                          type="file"
-                          id="image-input-1"
-                          name="image"
-                          hidden
-                        />
-                        <img
-                          id="preview-image-1"
-                          src="../images/food-banner-design-template-free-psd-download-990x990.jpg"
-                          alt=""
-                        />
-                        <div id="remove-cmt-image-btn">
-                          <i class="fa-solid fa-xmark"></i>
+                                    <div class="res__main-comment-image">
+                                        <div class="res__main-image">
+                                            <input type="file" id="image-input-1" name="image" hidden />
+                                            <img id="preview-image-1" src="../images/food-banner-design-template-free-psd-download-990x990.jpg" alt="" />
+                                            <div id="remove-cmt-image-btn">
+                                                <i class="fa-solid fa-xmark"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                        <div class="res__main-reviews-bound">
+                            <div class="res__main-reviews-large">
+                                <div class="res__main-reviews-info">
+                                    <div class="res__main-reviews-info-pic"></div>
+                                    <div class="res__main-reviews-info-name">Name</div>
+                                </div>
+                                <div class="res__main-reviews-rating">
+                                    <div class="res__main-reviews-rating-heading">
+                                        Rating section
+                                    </div>
+                                    <div class="res__main-reviews-rating-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus explicabo dignissimos qui perferendis error, fugit odit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam cupiditate
+                                        maxime laborum qui veritatis pariatur, molestias illo id sit, neque sunt! Illum quibusdam laboriosam facere dicta recusandae earum iste porro placeat eum.
+                                    </div>
+                                    <div class="res__main-reviews-rating-list_btn">
+                                        <div class="res__main-reviews-rating-item_btn"></div>
+                                        <div class="res__main-reviews-rating-item_btn"></div>
+                                        <div class="res__main-reviews-rating-item_btn"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="res__main-reviews-mid">
+                                <div class="res__main-reviews-info">
+                                    <div class="res__main-reviews-info-pic--mid"></div>
+                                    <div class="res__main-reviews-info-name">Name</div>
+                                </div>
+                                <div class="res__main-reviews-rating">
+                                    <div class="res__main-reviews-rating-heading">
+                                        Rating section
+                                    </div>
+                                    <div class="res__main-reviews-rating-text">
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    </div>
+                                    <div class="res__main-reviews-rating-list_btn">
+                                        <div class="res__main-reviews-rating-item_btn--mid"></div>
+                                        <div class="res__main-reviews-rating-item_btn--mid"></div>
+                                        <div class="res__main-reviews-rating-item_btn--mid"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="res__main-reviews-small">
+                                <div class="res__main-reviews-info">
+                                    <div class="res__main-reviews-info-pic--small"></div>
+                                    <div class="res__main-reviews-info-name">Name</div>
+                                </div>
+                                <div class="res__main-reviews-rating">
+                                    <div class="res__main-reviews-rating-heading">
+                                        Rating section
+                                    </div>
+                                    <div class="res__main-reviews-rating-text">
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                    </div>
+                                    <div class="res__main-reviews-rating-list_btn">
+                                        <div class="res__main-reviews-rating-item_btn--small"></div>
+                                        <div class="res__main-reviews-rating-item_btn--small"></div>
+                                        <div class="res__main-reviews-rating-item_btn--small"></div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                      </div>
                     </div>
-                  </div>
-                </div>
-              </form>
-              <div class="res__main-reviews-bound">
-                <div class="res__main-reviews-large">
-                  <div class="res__main-reviews-info">
-                    <div class="res__main-reviews-info-pic"></div>
-                    <div class="res__main-reviews-info-name">Name</div>
-                  </div>
-                  <div class="res__main-reviews-rating">
-                    <div class="res__main-reviews-rating-heading">
-                      Rating section
+                    <!-- input:type=['text']:value=['image-path'] -->
+                    <div class="res__main-albums-image-hidden" hidden>
+                        <input type="text" name="album" value="" id="album-image-1" />
+                        <input type="text" name="album" value="" id="album-image-2" />
+                        <input type="text" name="album" value="" id="album-image-3" />
+                        <input type="text" name="album" value="" id="album-image-4" />
+                        <input type="text" name="album" value="" id="album-image-5" />
+                        <input type="text" name="album" value="" id="album-image-6" />
+                        <input type="text" name="album" value="" id="album-image-7" />
                     </div>
-                    <div class="res__main-reviews-rating-text">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                      Natus explicabo dignissimos qui perferendis error, fugit
-                      odit. Lorem ipsum dolor sit amet consectetur adipisicing
-                      elit. Veniam cupiditate maxime laborum qui veritatis
-                      pariatur, molestias illo id sit, neque sunt! Illum
-                      quibusdam laboriosam facere dicta recusandae earum iste
-                      porro placeat eum.
-                    </div>
-                    <div class="res__main-reviews-rating-list_btn">
-                      <div class="res__main-reviews-rating-item_btn"></div>
-                      <div class="res__main-reviews-rating-item_btn"></div>
-                      <div class="res__main-reviews-rating-item_btn"></div>
-                    </div>
-                  </div>
-                </div>
+                </form>
+            </div>
+            <!-- End main content -->
 
-                <div class="res__main-reviews-mid">
-                  <div class="res__main-reviews-info">
-                    <div class="res__main-reviews-info-pic--mid"></div>
-                    <div class="res__main-reviews-info-name">Name</div>
-                  </div>
-                  <div class="res__main-reviews-rating">
-                    <div class="res__main-reviews-rating-heading">
-                      Rating section
+            <div class="res__main-albums-panel" id="albums-panel">
+                <div class="res__main-albums-container">
+                    <div class="res__main-albums-header">
+                        <div class="res__main-albums-heading">Albums</div>
+                        <div class="res__main-albums-close-btn">
+                            <i class="fa-solid fa-xmark"></i>
+                        </div>
                     </div>
-                    <div class="res__main-reviews-rating-text">
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    <div class="res__main-albums-list">
+                        <div class="res__main-albums-item" data-image-index="1">
+                            <img src="../images/delicious-breakfast-with-coffee_23-2148884981.jpg" alt="" />
+                        </div>
+                        <div class="res__main-albums-item" data-image-index="2">
+                            <img src="../images/delicious-breakfast-with-coffee_23-2148884981.jpg" alt="" />
+                        </div>
+                        <div class="res__main-albums-item" data-image-index="3">
+                            <img src="../images/delicious-breakfast-with-coffee_23-2148884981.jpg" alt="" />
+                        </div>
+                        <div class="res__main-albums-item" data-image-index="4">
+                            <img src="../images/delicious-breakfast-with-coffee_23-2148884981.jpg" alt="" />
+                        </div>
+                        <div class="res__main-albums-item" data-image-index="5">
+                            <img src="../images/delicious-breakfast-with-coffee_23-2148884981.jpg" alt="" />
+                        </div>
+                        <div class="res__main-albums-item" data-image-index="6">
+                            <img src="../images/delicious-breakfast-with-coffee_23-2148884981.jpg" alt="" />
+                        </div>
+                        <div class="res__main-albums-item" data-image-index="7">
+                            <img src="../images/delicious-breakfast-with-coffee_23-2148884981.jpg" alt="" />
+                        </div>
                     </div>
-                    <div class="res__main-reviews-rating-list_btn">
-                      <div class="res__main-reviews-rating-item_btn--mid"></div>
-                      <div class="res__main-reviews-rating-item_btn--mid"></div>
-                      <div class="res__main-reviews-rating-item_btn--mid"></div>
-                    </div>
-                  </div>
                 </div>
-                <div class="res__main-reviews-small">
-                  <div class="res__main-reviews-info">
-                    <div class="res__main-reviews-info-pic--small"></div>
-                    <div class="res__main-reviews-info-name">Name</div>
-                  </div>
-                  <div class="res__main-reviews-rating">
-                    <div class="res__main-reviews-rating-heading">
-                      Rating section
+            </div>
+        </div>
+        <div id="footer">
+            <div class="footer-info container">
+                <div class="row">
+                    <div class="col-md-8 col-sm-8">
+                        <p class="website-name">Food Checker</p>
                     </div>
-                    <div class="res__main-reviews-rating-text">
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    <div class="col-md-2 col-sm-2 d-flex align-items-center justify-content-center p-0">
+                        <p class="website-info">Ready to get started?</p>
                     </div>
-                    <div class="res__main-reviews-rating-list_btn">
-                      <div
-                        class="res__main-reviews-rating-item_btn--small"
-                      ></div>
-                      <div
-                        class="res__main-reviews-rating-item_btn--small"
-                      ></div>
-                      <div
-                        class="res__main-reviews-rating-item_btn--small"
-                      ></div>
+                    <div class="col-md-2 col-sm-2 d-flex align-items-center justify-content-center p-0">
+                        <p class="login-btn">Get started</p>
                     </div>
-                  </div>
                 </div>
-              </div>
             </div>
-            <!-- input:type=['text']:value=['image-path'] -->
-            <div class="res__main-albums-image-hidden" hidden>
-              <input type="text" name="album" value="" id="album-image-1" />
-              <input type="text" name="album" value="" id="album-image-2" />
-              <input type="text" name="album" value="" id="album-image-3" />
-              <input type="text" name="album" value="" id="album-image-4" />
-              <input type="text" name="album" value="" id="album-image-5" />
-              <input type="text" name="album" value="" id="album-image-6" />
-              <input type="text" name="album" value="" id="album-image-7" />
-            </div>
-          </form>
         </div>
-        <!-- End main content -->
-
-        <div class="res__main-albums-panel" id="albums-panel">
-          <div class="res__main-albums-container">
-            <div class="res__main-albums-header">
-              <div class="res__main-albums-heading">Albums</div>
-              <div class="res__main-albums-close-btn">
-                <i class="fa-solid fa-xmark"></i>
-              </div>
-            </div>
-            <div class="res__main-albums-list">
-              <div class="res__main-albums-item" data-image-index="1">
-                <img
-                  src="../images/delicious-breakfast-with-coffee_23-2148884981.jpg"
-                  alt=""
-                />
-              </div>
-              <div class="res__main-albums-item" data-image-index="2">
-                <img
-                  src="../images/delicious-breakfast-with-coffee_23-2148884981.jpg"
-                  alt=""
-                />
-              </div>
-              <div class="res__main-albums-item" data-image-index="3">
-                <img
-                  src="../images/delicious-breakfast-with-coffee_23-2148884981.jpg"
-                  alt=""
-                />
-              </div>
-              <div class="res__main-albums-item" data-image-index="4">
-                <img
-                  src="../images/delicious-breakfast-with-coffee_23-2148884981.jpg"
-                  alt=""
-                />
-              </div>
-              <div class="res__main-albums-item" data-image-index="5">
-                <img
-                  src="../images/delicious-breakfast-with-coffee_23-2148884981.jpg"
-                  alt=""
-                />
-              </div>
-              <div class="res__main-albums-item" data-image-index="6">
-                <img
-                  src="../images/delicious-breakfast-with-coffee_23-2148884981.jpg"
-                  alt=""
-                />
-              </div>
-              <div class="res__main-albums-item" data-image-index="7">
-                <img
-                  src="../images/delicious-breakfast-with-coffee_23-2148884981.jpg"
-                  alt=""
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div id="footer">
-        <div class="footer-info container">
-          <div class="row">
-            <div class="col-md-8 col-sm-8">
-              <p class="website-name">Food Checker</p>
-            </div>
-            <div
-              class="col-md-2 col-sm-2 d-flex align-items-center justify-content-center p-0"
-            >
-              <p class="website-info">Ready to get started?</p>
-            </div>
-            <div
-              class="col-md-2 col-sm-2 d-flex align-items-center justify-content-center p-0"
-            >
-              <p class="login-btn">Get started</p>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
-  </body>
+</body>
+
 </html>
 <!-- Thêm ô add image ở dưới -->
+
+<!-- Evaluate -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <form id="evaluate" class="" action="" method="">
+                <div class="modal-body">
+                    <h1>Rating</h1>
+                    <p class="pofmodal">Can you share with us about your feelings, please..?</p>
+                    <div class="row">
+                        <div class="col-md-9 food food1">
+                            <h4>Food</h4>
+                        </div>
+                        <div class="col-md-3">
+                            <select class="" name="">
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                      <option>6</option>
+                      <option>7</option>
+                      <option>8</option>
+                      <option>9</option>
+                      <option>10</option>
+                  </select>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-9 atmosphere">
+                            <h4>Atmosphere</h4>
+                        </div>
+                        <div class="col-md-3">
+                            <select class="" name="">
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                      <option>6</option>
+                      <option>7</option>
+                      <option>8</option>
+                      <option>9</option>
+                      <option>10</option>
+                  </select>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-9 value">
+                            <h4>Value</h4>
+                        </div>
+                        <div class="col-md-3">
+                            <select class="" name="">
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                      <option>6</option>
+                      <option>7</option>
+                      <option>8</option>
+                      <option>9</option>
+                      <option>10</option>
+                  </select>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-9 service">
+                            <h4>Service</h4>
+                        </div>
+                        <div class="col-md-3">
+                            <select class="" name="">
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                      <option>6</option>
+                      <option>7</option>
+                      <option>8</option>
+                      <option>9</option>
+                      <option>10</option>
+                  </select>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <!-- <button class="col-md-3 like imagebut"></button>
+                      <input class="col-md-1" type="radio" name="cate" value="like">
+                      <button class="col-md-3 dislike imagebut"></button>
+                      <input class="col-md-1" type="radio" name="cate" value="dislike">
+                      <button class="col-md-3 thinking  "></button>
+                      <input class="col-md-1" type="radio" name="cate" value="thinking"> 
+                  -->
+                        <div class="container">
+
+                            <div id="radios">
+                                <label for="driving" class="col-md-4 like">
+                      <input type="radio" name="mode" id="driving" value="like" checked/>
+                      <span>&#xe5ca;</span>
+                    </label>
+                                <label for="cycling" class="col-md-4 dislike">
+                      <input type="radio" name="mode" id="cycling" value="dislike" />
+                      <span>&#xe5ca;</span>
+                    </label>
+                                <label for="walking" class="col-md-4 thinking">
+                      <input type="radio" name="mode" id="walking" value="thinking" />
+                      <span>&#xe5ca;</span>
+                    </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer ">
+                        <!-- <button type="button " class="btn btn-secondary " data-dismiss="modal ">Close</button> -->
+
+                        <button type="submit " class="btn btnsubmit ">Submit</button>
+                        <button type="button" class="btn btn-secondary " data-dismiss="modal">
+                          Close
+                          
+                        </button>
+                    </div>
+            </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Notification -->
+<div class="modal fade" id="notification" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content content2">
+            <form id="evaluate" class="" action="" method="">
+                <!-- <span> <button type="button" class="btn btn-secondary close" data-dismiss="modal" aria-label="Close">
+                   
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+                  </span> -->
+                <div class="modal-body body2">
+                    <h1 class="h1ofnoti">Notification
+                    </h1>
+
+
+                    <div class="row coverno">
+                        <div class="col-md-2 md3img">
+                            <img src="../images/i1.png" alt>
+                        </div>
+                        <div class="col-md-10">
+                            <p class="pofnoti">Customer A follow your restaurant </p>
+                        </div>
+                    </div>
+
+                    <div class="row coverno">
+                        <div class="col-md-2 md3img">
+                            <img src="../images/i2.png" alt>
+                        </div>
+                        <div class="col-md-10">
+                            <p class="pofnoti">Restaurant C has added new food to their menu</p>
+                        </div>
+                    </div>
+
+                    <div class="row coverno">
+                        <div class="col-md-2 md3img">
+                            <img src="../images/i3.png" alt>
+                        </div>
+                        <div class="col-md-10">
+                            <p class="pofnoti">Customer A follow your restaurant</p>
+                        </div>
+                    </div>
+
+                    <div class="row coverno">
+                        <div class="col-md-2 md3img">
+                            <img src="../images/i4.png" alt>
+                        </div>
+                        <div class="col-md-10">
+                            <p class="pofnoti">Restaurant C has added new food to their menu</p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+            </form>
+        </div>
+    </div>
+</div>

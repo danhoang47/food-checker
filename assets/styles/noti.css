@@ -1,0 +1,51 @@
+.md3img img {
+    width: 170%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.coverno {
+    width: 90%;
+    font-size: 100%;
+    margin-left: 2%;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 5%;
+}
+
+.md3img {
+    padding: 0;
+}
+
+.body2 {
+    background-color: white;
+}
+
+.h1ofnoti {
+    font-size: 170%;
+    font-weight: bold;
+    margin-left: 37%;
+    margin-bottom: 6%;
+    color: white;
+}
+
+.pofnoti {
+    margin-left: 19%;
+    margin-top: 8.5%;
+    font-style: italic;
+    color: #828282;
+}
+
+.body2 {
+    background-color: #CC8466;
+}
+
+.content2 {
+    background-color: #CC8466;
+    width: 70%;
+    margin-left: 125%;
+    padding-top: 10px;
+    border: 5px solid black;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
