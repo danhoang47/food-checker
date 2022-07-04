@@ -10,8 +10,7 @@ const cancelEditBtn = document.getElementById('cancel-btn');
 const albumContainer = document.querySelector('.res__main-albums-container');
 const currentMenuItems = menuList.innerHTML;
 const currentListImage = albumsList.innerHTML;
-const inputAlbumList = albumListHidden.querySelectorAll
-('input');
+const inputAlbumList = albumListHidden.querySelectorAll('input');
 const restaurantName = document.querySelector('.res__main-intro--about-name');
 const currentName = restaurantName.textContent;
 const openingTimeTag = document.getElementById('opening-time');
@@ -20,6 +19,8 @@ const currentOpeningTime = openingTimeTag.textContent;
 const currentClosingTime = closingTimeTag.textContent;
 const mainContainer = document.querySelector('.res__main-container');
 const listLabelIndex = getListLabelIndex();
+const selectFood = document.querySelector('.select_food_type')
+const selectRes = document.querySelector('.select_res_type')
 let listRemoveBtn = null;
 let currentLenght = null;
 let inputLabel = null;
@@ -72,6 +73,8 @@ cancelEditBtn.onclick = (e) => {
     cancelAlbumModified();
     cancelInfoModified();
     count = parseInt(listLabelIndex[listLabelIndex.length - 1]);
+
+    hideSelector()
 }
 
 editBtn.onclick = () => {
@@ -103,6 +106,22 @@ editBtn.onclick = () => {
     inputLabel.onclick = addImage;
     
     editBtn.textContent = 'Save';
+
+    showSelector()
+}
+
+function showSelector() {
+    document.querySelector('.res__main-intro--about-food_type-edit').style.display = 'none'
+    document.querySelector('.res__main-intro--about-res_type-edit').style.display = 'none'
+    selectFood.style.display = 'inline-block'
+    selectRes.style.display = 'inline-block'
+}
+
+function hideSelector() {
+    document.querySelector('.res__main-intro--about-food_type-edit').style.display = 'inline-block'
+    document.querySelector('.res__main-intro--about-res_type-edit').style.display = 'inline-block'
+    selectFood.style.display = 'none'
+    selectRes.style.display = 'none'
 }
 
 function cancelInfoModified() {
