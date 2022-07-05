@@ -1,5 +1,6 @@
+
 .food {
-    width: 23vw;
+    width: 21vw;
     height: 7vh;
     background: url(../images/i1.png) no-repeat center/cover;
     border-radius: 10px;
@@ -20,10 +21,11 @@
 
 .row {
     margin-top: 5%;
+    margin-left: 5%;
 }
 
 .service {
-    width: 23vw;
+    width: 21vw;
     height: 7vh;
     background: url(../images/i4.png) no-repeat center/cover;
     border-radius: 10px;
@@ -34,7 +36,7 @@
 }
 
 .value {
-    width: 23vw;
+    width: 21vw;
     height: 7vh;
     background: url(../images/i3.png) no-repeat center/cover;
     border-radius: 10px;
@@ -45,7 +47,7 @@
 }
 
 .atmosphere {
-    width: 23vw;
+    width: 21vw;
     height: 7vh;
     background: url(../images/i2.png) no-repeat center/cover;
     border-radius: 10px;
@@ -111,7 +113,7 @@ select {
 }
 
 .like {
-    margin-left: 7%;
+    margin-left: -8%;
     border: none;
     width: 5vw;
     height: 11vh;
@@ -185,7 +187,7 @@ input[type="radio"]:focus+span {
 .btn-secondary {
     font-weight: bold;
     margin-right: 31%;
-    background-color: b7b7b7;
+    background-color: #b7b7b7;
 }
 
 .container {
