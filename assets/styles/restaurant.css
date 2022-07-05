@@ -106,7 +106,10 @@ input.res__main-intro--about-name {
 
 .res__main-btn__comments,
 .res__main-btn__albums,
-.res__main-btn__edit {
+.res__main-btn__edit,
+.res__main-btn__rating,
+.btn-modal,
+.btn-modal {
     background-color: #FD9459;
     border-radius: 20px;
     color: #fff;
