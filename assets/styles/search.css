@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+.end_bx .search {
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: #F68A15;
+    margin-left: 10%;
+}
+
+.end_bx .search input {
+    padding: 3px 0px 3px 8px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    background: #fff;
+    color: #000;
+    transition: 1s linear;
+    -webkit-transition: 1s linear;
+    width: 0px;
+}
+
+.end_bx .search i {
+    color: #F68A15;
+    font-size: 13px;
+    cursor: pointer;
+    transition: .4s linear;
+}
+
+.end_bx .search i:hover {
+    color: #000;
+}
+
+.end_bx .search .search_bx2 {
+    position: absolute;
+    width: 150%;
+    height: 950%;
+    padding: 8%;
+    /* border: 1px solid #fff; */
+    top: 35px;
+    left: -10px;
+    background: rgba(24, 23, 23, 0.7);
+    border-radius: 10px;
+    overflow: auto;
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s linear;
+}
+
+.end_bx .search .search_bx2 a {
+    text-decoration: none;
+    color: #000;
+    width: 100%;
+    height: 50px;
+    /* border: 1px solid #fff; */
+    display: flex;
+    align-items: center;
+    transition: .3s linear;
+}
+
+.end_bx .search .search_bx2 a:hover {
+    background: rgb(184, 184, 184, .6);
+}
+
+.end_bx .search .search_bx2 a img {
+    width: 15%;
+    height: 80%;
+    border-radius: 5px;
+    margin: 0px 5px;
+}
+
+.end_bx .search .search_bx2 a .content3 {
+    margin-top: 5%;
+    margin-left: 7%;
+    ;
+    color: #fff;
+}
+
+.end_bx .search .search_bx2 a .content3 h6 {
+    font-size: 13px;
+}
+
+.end_bx .search .search_bx2 a .content3 p {
+    color: rgb(255, 255, 255, .7);
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.end_bx .search .search_input {
+    width: 180px;
+}
