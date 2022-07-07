@@ -106,10 +106,7 @@ input.res__main-intro--about-name {
 
 .res__main-btn__comments,
 .res__main-btn__albums,
-.res__main-btn__edit,
-.res__main-btn__rating,
-.btn-modal,
-.btn-modal {
+.res__main-btn__edit {
     background-color: #FD9459;
     border-radius: 20px;
     color: #fff;
@@ -332,24 +329,20 @@ input.res__main-intro--about-name {
     border-radius: 20px;
     justify-content: space-between;
     margin-bottom: 10px;
+    flex-wrap: wrap;
 }
 
+
 .res__main-reviews-mid {
-    padding: 0px 40px;
+    width: 90%;
+    margin-left: auto;
+    padding: 10px 0;
 }
 
 .res__main-reviews-small {
-    padding: 0 40px;
-}
-
-.res__main-reviews-mid {
-    width: 80%;
+    width:90%;
     margin-left: auto;
-}
-
-.res__main-reviews-small {
-    width: 60%;
-    margin-left: auto;
+    padding: 10px 0;
 }
 
 .res__main-reviews-info {
@@ -413,16 +406,21 @@ input.res__main-intro--about-name {
 .res__main-reviews-rating-item_btn {
     background-color: #D9D9D9;
     border-radius: 8px;
+    text-align: center;
+    line-height: 0;
+    color: #eb6a0ce3;
 }
 
-.res__main-reviews-rating-item_btn {
+.res__main-reviews-rating-item_btn,
+.res__main-reviews-rating-item_btn--mid,
+.res__main-reviews-rating-item_btn--small {
     width: 46px;
     height: 18px;
     margin: 10px 5px;
     padding-top: 5px;
 }
 
-.res__main-reviews-rating-item_btn--mid {
+/*.res__main-reviews-rating-item_btn--mid {
     width: 46px;
     height: 12px;
     margin: 6px 3px;
@@ -434,7 +432,7 @@ input.res__main-intro--about-name {
     height: 12px;
     margin: 6px 3px;
     padding-top: 5px;
-}
+}*/
 
 .res__main-reviews-rating-item_btn--mid:first-child,
 .res__main-reviews-rating-item_btn--small:first-child,
@@ -898,5 +896,39 @@ input.res__main-intro--about-time-to-edit {
     font-size: 14px;
     font-weight: 600;
     display: inline-block;
+}
+
+
+.submitFormComment {
+    background-color: #FD9459;
+    border-radius: 20px;
+    color: #fff;
+    padding: 6px 10px;
+    font-size: 14px;
+    min-width: 100px;
+    text-align: center;
+    border: 2px solid #FD9459;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 89%;
+}
+
+.showCommentsBtn {
+    color: #FD9459;
+    padding: 6px 10px;
+    font-size: 14px;
+    min-width: 100px;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+}
+
+.showCommentsBtn:hover {
+    text-decoration: underline;
+}
+
+.res__main-reviews-info-point {
+    margin-top: -10px;
+    padding-left: 17px;
 }
 
